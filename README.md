@@ -64,7 +64,7 @@ O movies-chatbot é um bot desenvolvido em Python que responde perguntas sobre f
     curl -X 'POST' \
     'http://localhost:8000/chat' \
     -H 'Content-Type: application/json' \
-    -d '{"question": "Qual é a avaliação do filme ‘Inception’?"}'
+    -d '{"question": "Qual é a avaliação do filme ‘Matrix’?"}'
     ```
 
 4. Testar filmes populares no momento:

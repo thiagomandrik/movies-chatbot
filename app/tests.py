@@ -32,7 +32,7 @@ async def test_sinopse_do_filme():
 
 @pytest.mark.asyncio
 async def test_avaliacao_do_filme():
-    question = "Qual é a avaliação do filme ‘Inception’?"
+    question = "Qual é a avaliação do filme ‘Matrix’?"
     async with httpx.AsyncClient() as client:
         response = await client.post(f"{BASE_URL}/chat", json={"question": question})
         print(f'{question}\n')
